@@ -32,4 +32,8 @@ export class CategoriaCreateComponent implements OnInit {
     })
   }
 
+  voltar(): void{
+    this.router.navigate(['categorias']);
+  }
+
 }

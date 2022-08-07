@@ -38,7 +38,7 @@
           <th class="mat-header" mat-header-cell *matHeaderCellDef> Ações </th>
           <td mat-cell *matCellDef="let row"> {{row.acoes}}
             <a class="edit" href="#"><mat-icon fontIcon="edit"></mat-icon></a>
-            <a class="delete" href="#"><mat-icon fontIcon="delete"></mat-icon></a>
+            <a routerLink="delete/{{ row.id }}" class="delete"><mat-icon fontIcon="delete" ></mat-icon></a>
           </td>
         </ng-container>
 
