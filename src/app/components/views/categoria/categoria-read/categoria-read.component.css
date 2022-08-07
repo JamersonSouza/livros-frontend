@@ -4,7 +4,14 @@ margin: 2rem auto;}
 .title{text-align: center; margin-bottom: 3rem;}
 .title h1 {font-size: 2rem; color: rgb(14, 11, 11); font-weight: 500;}
 .mat-elevation-z8{border: 1px solid #000;}
-
+.btn-cat{margin-bottom: 1rem;}
 .table{
   width: 100%;
 }
+
+.edit{
+  color: rgb(217, 103, 27);
+  margin-right: 20px;
+}
+.delete{color: rgb(255, 17, 17)}
+.mat-header{width: 5rem;}
