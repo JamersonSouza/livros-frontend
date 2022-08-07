@@ -1,0 +1,10 @@
+form{
+  width: 70%;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+
+.form-fields{width: 100%;}
+
+.buttons{width: 100%; text-align: start;}
+button{margin-right: 1.5rem; padding: 0 2rem;}
